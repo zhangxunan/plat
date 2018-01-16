@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     String hello() {
-        return "hello zhangxunan v1.0.0 branch999";
+        return "hello zhangxunan v1.0.0";
     }
 }
