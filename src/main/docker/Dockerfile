@@ -1,4 +1,5 @@
 FROM hub.c.163.com/wuxukun/maven-aliyun:3-jdk-8
+RUN mvn clean package
 VOLUME /tmp
 EXPOSE 8080
 ADD plat-1.0-SNAPSHOT.jar app.jar
