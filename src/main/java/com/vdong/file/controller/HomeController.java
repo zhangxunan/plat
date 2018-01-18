@@ -8,15 +8,11 @@ import java.util.Map;
 
 @Controller
 public class HomeController {
-    @RequestMapping("/")
-    String hello() {
-        return "hello zhangxunan v1.0.0";
-    }
 
     @RequestMapping("/hello")
     public String hello(Map<String, Object> map) {
 
-        map.put("hello", "from TemplateController.helloHtml 章");
+        map.put("hello", "章旭楠。222。fuck2222");
         return "/hello";
     }
 
