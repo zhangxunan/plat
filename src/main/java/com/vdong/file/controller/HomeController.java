@@ -13,7 +13,7 @@ public class HomeController {
     public String hello(Map<String, Object> map) {
 
         map.put("hello", "章旭楠。222。fuck2222");
-        return "/hello";
+        return "hello";
     }
 
 }
